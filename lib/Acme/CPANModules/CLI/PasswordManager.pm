@@ -28,9 +28,11 @@ CLI. Passwords are stored in `~/.password_manager.json` in a simple JSON object
 (hash) structure. Currently a very early release that still needs to be updated.
 
 Pros:
+
 - simplicity.
 
 Cons:
+
 - At the time of this writing (version 1.0.0) only the password hash is stored
   and returned, making this application unusable at the moment.
 - Password must be entered as command-line argument, making it visible from
@@ -51,10 +53,12 @@ format. This tool can be used to read from a PGP-encrypted addressbook file, and
 thus can also be used as a password retriever.
 
 Pros:
+
 - Standard tool and format for the data storage (PGP-encrypted Org file, which
   can be edited with Emacs).
 
 Cons:
+
 - Does not come with the functionality of adding/editing/removing entries. Use
   your editor like Emacs to do so.
 
